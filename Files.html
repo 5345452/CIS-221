@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+<body>
+  <h2>Simple Registration Form</h2>
+
+  <form action="" method="post">
+    
+    <!-- Text input -->
+    <p>
+      Full Name: <br>
+      <input type="text" name="fullname" maxlength="30" required>
+    </p>
+
+    <!-- Email input -->
+    <p>
+      Email: <br>
+      <input type="email" name="email" required>
+    </p>
+
+    <!-- Password input -->
+    <p>
+      Password: <br>
+      <input type="password" name="password" maxlength="15" required>
+    </p>
+
+    <!-- Textarea -->
+    <p>
+      Tell us about yourself: <br>
+      <textarea name="about" rows="4" cols="30"></textarea>
+    </p>
+
+    <!-- Radio buttons -->
+    <p>
+      Gender: <br>
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female
+    </p>
+
+    <!-- Checkboxes -->
+    <p>
+      Hobbies: <br>
+      <input type="checkbox" name="hobby" value="reading"> Reading
+      <input type="checkbox" name="hobby" value="music"> Music
+      <input type="checkbox" name="hobby" value="sports"> Sports
+    </p>
+
+    <!-- Dropdown -->
+    <p>
+      Country: <br>
+      <select name="country">
+        <option value="kenya">Kenya</option>
+        <option value="uganda">Uganda</option>
+        <option value="tanzania">Tanzania</option>
+      </select>
+    </p>
+
+    <!-- File upload -->
+    <p>
+      Upload Profile Picture: <br>
+      <input type="file" name="profile">
+    </p>
+
+    <!-- Date input -->
+    <p>
+      Date of Birth: <br>
+      <input type="date" name="dob">
+    </p>
+
+    <!-- Submit button -->
+    <p>
+      <input type="submit" value="Register">
+      <input type="reset" value="Clear">
+    </p>
+
+  </form>
+</body>
+</html>
