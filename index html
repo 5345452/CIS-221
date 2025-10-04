@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My CV</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 id="name">Jane Wanjiku</h1>
+      <p>Email: jane@example.com | Phone: +254 712 345 678</p>
+    </header>
+
+    <section>
+      <h2>Profile</h2>
+      <p>A hardworking student passionate about technology and web development.</p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>BSc Computer Science – XYZ University (2022–2025)</li>
+        <li>KCSE – ABC High School (2018–2021)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Database Management</li>
+        <li>Teamwork & Communication</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <ul>
+        <li>Intern – Tech Company (2024)</li>
+      </ul>
+    </section>
+
+    <button onclick="highlight()">Highlight My Skills</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
