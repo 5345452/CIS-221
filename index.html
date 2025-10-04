@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fashion Store</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Fashion Store</h1>
+    <p class="tagline">Stylish. Affordable. Yours.</p>
+  </header>
+
+  <main class="container">
+    <section class="products">
+      <h2>Featured Items</h2>
+      <div id="productGrid" class="grid">
+        <!-- product cards injected by script.js -->
+      </div>
+    </section>
+
+    <section class="sales">
+      <h2>Upcoming Sale Offers</h2>
+      <table class="sales-table">
+        <thead>
+          <tr>
+            <th>Offer</th>
+            <th>Item</th>
+            <th>Discount</th>
+            <th>Starts</th>
+            <th>Ends</th>
+          </tr>
+        </thead>
+        <tbody id="offersBody">
+          <!-- offers injected by script.js -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Fashion Store. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
